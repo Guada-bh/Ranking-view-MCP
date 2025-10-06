@@ -1,0 +1,113 @@
+@import '../styles/variables.css';
+
+.header {
+  width: 100%;
+  height: 245px;
+  background-color: var(--bb-neutral-default);
+  padding: 0;
+}
+
+.navbar {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--bb-padding-lg);
+}
+
+.logo {
+  width: 25px;
+  height: 24px;
+}
+
+.logo-icon {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bb-success-default);
+  border-radius: var(--bb-padding-sm);
+}
+
+.tags-section {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--bb-padding-sm) 0;
+  margin-top: var(--bb-padding-md);
+}
+
+.badges {
+  display: flex;
+  align-items: center;
+  gap: var(--bb-padding-md);
+  margin-left: 0;
+}
+
+.category-badge {
+  background-color: var(--bb-success-default);
+  color: var(--label-color-dark-primary);
+  padding: var(--bb-padding-sm) var(--bb-padding-lg);
+  border-radius: 14px;
+  font-size: var(--mobile-body-md-regular);
+  font-weight: 500;
+  font-family: var(--bb-font-family-default);
+}
+
+.metrics {
+  display: flex;
+  gap: var(--bb-padding-lg);
+  margin-left: var(--bb-padding-md);
+}
+
+.ranking-info {
+  background-color: var(--brand-neutrals-700);
+  color: var(--bb-text-color-secondary);
+  padding: var(--bb-padding-sm) var(--bb-padding-md);
+  border-radius: var(--bb-padding-md);
+  font-size: var(--mobile-body-sm-regular);
+  font-weight: 500;
+  font-family: var(--bb-font-family-default);
+}
+
+.share-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: var(--bb-padding-sm-molecules);
+}
+
+.share-icon {
+  width: var(--bb-padding-sm-molecules);
+  height: var(--bb-padding-sm-molecules);
+  background-color: var(--bb-icon-color-secondary);
+  border-radius: 2px;
+}
+
+.title-section {
+  padding: 0 var(--bb-padding-sm-molecules)!important;
+  margin-top: var(--bb-padding-md)!important;
+}
+
+.main-title {
+  font-size: var(--mobile-heading-md-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-mobile);
+  color: var(--bb-text-color-primary);
+  margin: 0;
+  font-family: var(--bb-font-family-default);
+}
+
+.description-section {
+  padding: 0 var(--bb-padding-sm-molecules);
+  margin-top: var(--bb-padding-md);
+}
+
+.description {
+  font-size: var(--mobile-body-lg-regular);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-mobile);
+  color: var(--bb-text-color-secondary);
+  margin: 0;
+  font-family: var(--bb-font-family-default);
+}

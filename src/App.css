@@ -1,0 +1,36 @@
+@import './styles/variables.css';
+
+.app {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  background-color: var(--system-background-dark);
+  min-height: 100vh;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.body {
+  background-color: var(--bb-neutral-default);
+  padding-bottom: var(--bb-padding-lg-molecules);
+}
+
+.container {
+  padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 390px) {
+  .app {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    max-width: 390px;
+    margin: var(--bb-padding-lg-molecules) auto;
+    border-radius: var(--bb-padding-lg-molecules);
+    overflow: hidden;
+  }
+}

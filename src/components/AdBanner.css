@@ -1,0 +1,48 @@
+@import '../styles/variables.css';
+
+.ad-banner {
+  width: 100%;
+  height: 132px;
+  background-color: var(--bb-neutral-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.ad-content {
+  width: 320px;
+  height: 100px;
+  background-color: var(--brand-neutrals-700);
+  border-radius: var(--bb-padding-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px dashed var(--brand-neutrals-600);
+}
+
+.ad-text {
+  font-size: var(--mobile-heading-sm-medium);
+  font-weight: 600;
+  color: var(--bb-text-color-secondary);
+  text-align: center;
+  font-family: var(--bb-font-family-default);
+}
+
+.ad-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 24px;
+  background-color: var(--brand-red-600);
+  color: var(--label-color-dark-primary);
+  font-size: var(--mobile-body-sm-bold);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 var(--bb-padding-md) 0 var(--bb-padding-md);
+  font-family: var(--bb-font-family-default);
+}

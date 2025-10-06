@@ -1,0 +1,107 @@
+@import '../styles/variables.css';
+
+.bottom-bar {
+  width: 100%;
+  background-color: var(--system-background-dark);
+  border-top: 1px solid var(--brand-neutrals-700);
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.bottom-content {
+  padding: var(--bb-padding-lg-molecules) var(--bb-padding-sm-molecules) 0;
+  background-color: var(--system-background-dark);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--bb-padding-md);
+  margin-bottom: var(--bb-padding-lg);
+}
+
+.logo-icon {
+  width: 26px;
+  height: 26px;
+  background-color: var(--bb-success-default);
+  border-radius: var(--bb-padding-sm);
+}
+
+.logo-text {
+  font-size: var(--bb-heading-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--bb-text-color-primary);
+  font-family: var(--bb-font-family-default);
+}
+
+.links-section {
+  margin-bottom: var(--bb-padding-lg);
+}
+
+.links-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--bb-padding-md);
+}
+
+.links-row span {
+  font-size: var(--mobile-body-lg-regular);
+  color: var(--bb-text-color-secondary);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--bb-font-family-default);
+}
+
+.footer-text {
+  text-align: center;
+  margin-bottom: var(--bb-padding-lg);
+}
+
+.footer-text p {
+  font-size: var(--mobile-body-md-regular);
+  color: var(--bb-text-color-secondary);
+  margin: var(--bb-padding-sm) 0;
+  line-height: var(--line-height-mobile);
+  font-family: var(--bb-font-family-default);
+}
+
+.bottom-nav {
+  height: 78px;
+  background-color: var(--system-background-dark);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 var(--bb-padding-sm-molecules);
+  border-top: 1px solid var(--brand-neutrals-700);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--bb-padding-sm);
+  cursor: pointer;
+}
+
+.nav-icon {
+  width: var(--bb-padding-sm-molecules);
+  height: var(--bb-padding-sm-molecules);
+  background-color: var(--bb-icon-color-secondary);
+  border-radius: var(--bb-padding-sm);
+}
+
+.nav-item span {
+  font-size: var(--mobile-body-sm-regular);
+  color: var(--bb-text-color-secondary);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--bb-font-family-default);
+}
+
+.nav-item:hover .nav-icon {
+  background-color: var(--bb-success-default);
+}
+
+.nav-item:hover span {
+  color: var(--bb-success-default);
+}

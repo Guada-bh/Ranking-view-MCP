@@ -1,0 +1,93 @@
+/* Variables de diseño de Figma */
+:root {
+  /* Colores principales */
+  --bb-text-color-primary: #f5f7fc;
+  --bb-text-color-secondary: #a9bcce;
+  --bb-neutral-strong: #f5f7fc;
+  --bb-neutral-light: #1a2935;
+  --bb-neutral-default: #1a2935;
+  --bb-success-default: #00d689;
+  
+  /* Colores del sistema */
+  --system-background-dark: #000000;
+  --label-color-dark-primary: #ffffff;
+  --ios-chrome-bars-background-dark: #353739;
+  
+  /* Colores de marca */
+  --brand-neutrals-600: #24394b;
+  --brand-neutrals-700: #1a2935;
+  --brand-neutrals-800: #142029;
+  --brand-neutrals-900: #101920;
+  --brand-neutrals-opacity-100-light: #ffffff1a;
+  --brand-green-400: #00d689;
+  --brand-red-600: #fe7f7f;
+  
+  /* Iconos */
+  --bb-icon-color-secondary: #a9bcce;
+  --bb-icon-size-xs: 12px;
+  --bb-icon-size-sm: 16px;
+  --bb-icon-size-lg: 32px;
+  --bb-badge-icon-info: #a3d7ff;
+  
+  /* Espaciado */
+  --bb-padding-sm: 4px;
+  --bb-padding-md: 8px;
+  --bb-padding-lg: 16px;
+  --bb-padding-sm-molecules: 20px;
+  --bb-padding-md-molecules: 24px;
+  --bb-padding-lg-molecules: 32px;
+  
+  /* Tipografía - Billion Blocks */
+  --bb-font-family-default: "Satoshi Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Headings */
+  --bb-heading-xs: 20px;
+  --bb-heading-sm: 18px;
+  --bb-heading-md: 24px;
+  --bb-heading-lg: 28px;
+  
+  /* Body Text */
+  --bb-text-xs: 12px;
+  --bb-text-sm: 14px;
+  --bb-text-md: 16px;
+  --bb-text-lg: 18px;
+  
+  /* Mobile Typography - Exact from Figma */
+  --mobile-heading-md-medium: 24px;
+  --mobile-heading-sm-medium: 20px;
+  --mobile-body-lg-regular: 16px;
+  --mobile-body-md-regular: 14px;
+  --mobile-body-sm-regular: 12px;
+  --mobile-body-sm-bold: 12px;
+  
+  /* Callout */
+  --callout-bold: 16px;
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Badges */
+  --bb-badge-border-radius: 8px;
+  
+  /* Buttons */
+  --bb-button-height-sm: 32px;
+  --bb-button-height-md: 40px;
+  --bb-button-height-lg: 48px;
+  --bb-button-padding-sm: 8px 12px;
+  --bb-button-padding-md: 12px 20px;
+  --bb-button-padding-lg: 16px 24px;
+  --bb-button-border-radius: 49px;
+  --bb-button-font-size: 16px;
+  --bb-button-font-weight: 500;
+  --bb-button-primary-bg: #fd5757;
+  --bb-button-primary-border: #fe7f7f;
+  --bb-button-secondary-bg: #ffffff;
+  --bb-button-secondary-text: #142029;
+  
+  /* Line Heights */
+  --line-height-mobile: 1.2;
+  --line-height-callout: 21px;
+}
